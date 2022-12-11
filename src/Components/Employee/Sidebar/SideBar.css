@@ -1,0 +1,268 @@
+.employee-left-side-bar {
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 100%;
+  background-image: url("../images/left-side-bar.png");
+  background-color: #fcf6ff;
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  padding-bottom: 10vh;
+}
+.employee-left-side-bar-logo {
+  width: 140px;
+  height: 152px;
+  align-self: center;
+  margin-bottom: 80px;
+}
+.employee-left-side-bar div h6 {
+  color: #0300bb;
+  font-weight: bolder;
+}
+.employee-left-side-bar div ul li {
+  color: rgb(61, 58, 58);
+  font-weight: 500;
+  font-size: 15px;
+}
+.employee-left-side-bar div ul {
+  margin-bottom: 70px;
+}
+/* Right side bar css */
+
+.employee-right-side-bar {
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  overflow-y: auto;
+  background-image: url("../images/right-side-bar.png");
+  background-color: #fcf6ff;
+  background-size: 100% 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  scrollbar-width: none;
+}
+
+.employee-feedback-link button i {
+  padding-right: 0px;
+  padding-top: 15px;
+  float: left;
+  color: gray;
+}
+
+.employee-feedback-link button {
+  width: 200px;
+  height: 55px;
+  background: #eff2f9;
+  border-radius: 20px;
+  color: #7700bb;
+  font-size: 25px;
+  font-family: "Acme", sans-serif;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: none;
+}
+
+.employee-right-side-bar::-webkit-scrollbar {
+  display: none;
+}
+.employee-right-side-bar-logo {
+  align-self: center;
+  margin-bottom: 70px;
+}
+.employee-right-side-bar form {
+  margin-bottom: 10vh;
+}
+.employee-right-side-bar form div {
+}
+.employee-right-side-bar h2 {
+  font-family: "Caveat", cursive;
+  color: #7700bb;
+  text-align: center;
+}
+
+.employee-right-side-bar form div input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+  background-color: rgba(241, 234, 234, 0.562);
+}
+.employee-right-side-bar form div textarea {
+  resize: none;
+}
+.employee-right-side-bar form div label {
+  display: block;
+  margin-top: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.sidebar-form-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sidebar-form-btn button {
+  background-color: #7700bb;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+/* .employee-right-side-bar-calendar {
+  padding: 0;
+  text-align: center;
+
+  margin-left: 50px;
+} */
+.employee-right-side-bar-calendar abbr {
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+}
+.react-calendar__navigation__label__labelText {
+  font-size: 18px;
+  font-weight: 700;
+}
+.employee-right-side-bar-calendar button {
+  background-color: white;
+
+  outline: none;
+  border: none;
+  font-size: 10px;
+  padding: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-weight: 500;
+}
+.react-calendar__navigation__arrow {
+  padding-top: 20px;
+}
+.employee-right-side-bar-calendar button:hover {
+  background-color: rgba(168, 164, 164, 0.356);
+  border-radius: 15px;
+}
+
+/* button.react-calendar__navigation__prev-button {
+  display: none;
+} */
+
+/* react-calendar__navigation__arrow  */
+
+.time {
+  margin-top: 50px;
+}
+/* mob view */
+.mob-employee-left-side-bar-logo {
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+.mob-employee-left-side-bar {
+  margin-top: 20px;
+}
+.mob-employee-left-side-bar div h6 {
+  color: #7700bb;
+  font-size: 20px;
+}
+.mob-employee-right-side-bar h2 {
+  font-family: "Caveat", cursive;
+  color: #7700bb;
+  text-align: center;
+}
+.mob-employee-right-side-bar form div label {
+  display: block;
+}
+.mob-employee-right-side-bar form div select,
+input {
+  margin-bottom: 30px;
+  padding: 8px;
+  background: #f3f3f3;
+  border: 1px solid gray;
+}
+
+.mob-employee-right-side-bar form div input {
+  margin-bottom: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid gray;
+  background: #f3f3f3;
+}
+.mob-employee-right-side-bar form div select {
+  border: 1px solid gray;
+}
+.mob-employee-right-side-bar-inputs div {
+  margin-bottom: 40px;
+  /* padding-left: 20px; */
+}
+.mob-employee-right-side-bar-inputs div label {
+  display: block;
+}
+
+.mob-employee-right-side-bar-calendar {
+  position: relative;
+  width: 270px;
+  height: 170px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-left: 30px;
+}
+.mob-employee-right-side-bar-calendar abbr {
+  font-size: 10px;
+  text-decoration: none;
+}
+.mob-employee-right-side-bar-calendar button {
+  background-color: white;
+  outline: none;
+  border: none;
+  font-size: 10px;
+  padding: 0;
+  padding-left: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 500;
+}
+.react-calendar__tile--active.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  border: 3px solid rgba(0, 193, 236, 0.363);
+  background-color: white;
+  color: blue;
+  border-radius: 15px;
+}
+.react-calendar__tile--active.react-calendar__tile--active abbr {
+  color: rgb(0, 208, 255);
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1140px) {
+}
+
+@media screen and (max-width: 500px) {
+  .mob-employee-right-side-bar form {
+    text-align: center;
+  }
+}

@@ -1,0 +1,111 @@
+.health-issue-categories {
+  position: relative;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  margin-left: 280px;
+  height: 100%;
+  margin-right: 320px;
+  background-color: #fffaf2;
+  padding-bottom: 7vh;
+  padding-top: 4vh;
+}
+.category {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.category-card {
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.category-card:hover {
+  cursor: pointer;
+}
+
+.category-card div {
+  position: absolute;
+  bottom: 0.5px;
+  border-radius: 12px;
+  background-color: #252cff98;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  width: 200px;
+  height: 30%;
+}
+.category-card div i {
+  position: absolute;
+  bottom: 13px;
+  right: 13px;
+}
+
+.category-img {
+  width: 200px;
+  height: 250px;
+}
+.categories h2 {
+  font-family: "caveat", cursive;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 6vh;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 76px;
+
+  color: #000000;
+}
+.employee-newsletter {
+  padding-bottom: 50px;
+}
+
+.employee-newsletter:hover {
+  cursor: pointer;
+}
+
+.employee-newsletter div {
+  width: 231px;
+  text-align: center;
+  background: #fdf7ef;
+  border-radius: 0 0px 20px 20px;
+}
+.employee-newsletter div button {
+  background-color: inherit;
+  color: #7700bb;
+  font-family: "roboto", sans-serif;
+  border: 3px solid #f5b14c;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.newsletter-date {
+  color: #f6a226;
+  font-family: "roboto", sans-serif;
+}
+.newsletter-title {
+  color: #7700bb;
+  font-family: "roboto", sans-serif;
+}
+.wellness-campaign {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wellness-campaign h2 {
+  color: #7700bb;
+  font-family: "caveat", "cursive";
+  margin-bottom: 30px;
+}
+#selectedCard {
+  border: 5px solid #f6a226;
+  box-shadow: 6px 8px 7px gray;
+  border-radius: 12px;
+}
