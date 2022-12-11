@@ -13,7 +13,7 @@ const Patient = () => {
     useEffect(() => {
         fetchData()
         console.log(posts)
-    }, [])
+    })
     
     function editData(rowData){
         console.log(posts,rowData)
@@ -37,12 +37,11 @@ const Patient = () => {
 
     async function handleSubmit() {
             
-            if(editid != ''){
+            if(editid !== ''){
                 let dbRef = doc(db,"users",editid)
                 console.log(editid,form)
                 setDoc(dbRef,form)
             }else{
-                let d  = new Date(form.date)
                     await addDoc(collection(db,'users'),{
                         name:form.name,
                     }

@@ -4,7 +4,6 @@ import 'react-calendar/dist/Calendar.css';
 import { collection, addDoc } from 'firebase/firestore';
 import { db } from '../../../firebase';
 import "./SideBar.css"
-import axios from "axios"
 // import { Link } from 'react-router-dom';
 
 const SideBar = ({category,categoryValue,setcategoryValue}) => {

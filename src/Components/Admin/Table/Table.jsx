@@ -18,7 +18,7 @@ const Table = () => {
     useEffect(() => {
         fetchData()
         console.log(posts)
-    }, [])
+    })
     
     function editData(rowData){
         let q = posts.filter((ele)=> ele.id === rowData )
@@ -44,7 +44,7 @@ const Table = () => {
        }
 
     async function handleSubmit() {
-            if(editid != ''){
+            if(editid !== ''){
                 console.log(editid,form)
                 let dbRef = doc(db,"booking",editid);
                 let d = new Date(form.date)

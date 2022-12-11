@@ -16,16 +16,6 @@ const Sidebar = ({mobview,left,setleft,user,setuser,setbooking}) => {
     // console.log(user)
 
      
-    const handleSelectChnage = (e)=>{
-      // e.target.value === "admin" ?  : setuser(false)
-              if(e.target.value === "admin"){
-                console.log(user,e.target.value)
-                setuser(true)
-              }else{
-                console.log(user,e.target.value)
-                setuser(false)
-              }
-    }
    
          return (
         <>

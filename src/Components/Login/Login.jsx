@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import { Link } from 'react-router-dom'
 import { addDoc, collection } from 'firebase/firestore'
 import { db } from '../../firebase'
 import { useNavigate } from 'react-router-dom';
@@ -38,7 +37,7 @@ const navigate = useNavigate()
   return (
     <section className='row'>
         <div className='col-7 login-img' >
-            <img  src={`login-img.jpg`}  />
+            <img  src={`login-img.jpg`}  alt="img" />
         </div>
         <div className='col-5 login-right'>
             <h1>Log In</h1>
