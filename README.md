@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is based on health care startup.Used for patients to book their sessions and used by doctors to keep track of their bookings
+
 
 ## Available Scripts
 
