@@ -35,11 +35,11 @@ const navigate = useNavigate()
     
   }
   return (
-    <section className='row'>
-        <div className='col-7 login-img' >
+    <section  className='row'>
+        <div className='col-lg-7 col-md-12 login-img' >
             <img  src={`login-img.jpg`}  alt="img" />
         </div>
-        <div className='col-5 login-right'>
+        <div className='col-lg-5 col-md-12 login-right'>
             <h1>Log In</h1>
             <div className='user-select'>
                <span onClick={()=> changeUser('one','patient')} className={classname === 'one' ? 'selected-user' : ''} >Patient</span>
