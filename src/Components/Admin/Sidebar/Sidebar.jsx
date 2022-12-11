@@ -10,7 +10,7 @@ const Sidebar = ({mobview,left,setleft,user,setuser,setbooking}) => {
 
     const handleClick = () =>{
         setleft("-500px")
-        document.body.style.overflow ='visible'; 
+        // document.body.style.overflow ='visible'; 
         setbooking((prev) => !prev)
     }
     // console.log(user)

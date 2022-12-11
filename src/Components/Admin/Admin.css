@@ -3,7 +3,7 @@
   min-height: 100vh;
   position: relative;
   background: #0e56ff2c;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .admin-card-wrap {
   margin-left: 22%;

@@ -5,3 +5,16 @@ table, th, td{
 .admin-table{
     margin-left:25%;
 }
+@media screen and (max-width: 1150px) {
+    .admin-table{
+        margin-left: 0;
+    }
+    table,th,td{
+        padding: 7px;
+    }
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
